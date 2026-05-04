@@ -4,7 +4,15 @@ using System.Text;
 
 namespace Dsw2026Ej8
 {
-    internal class EJ03
+    public class Problema3
     {
+        public string CompararCopiar(int originalValue, Product product)
+        {
+            int copiaValor = originalValue;
+            copiaValor++;
+            Product copiaProducto = product;
+            copiaProducto.SetDescription("Descripción Modificada");
+            return $"{originalValue}-{copiaValor}-{product._description}";
+        }
     }
 }
