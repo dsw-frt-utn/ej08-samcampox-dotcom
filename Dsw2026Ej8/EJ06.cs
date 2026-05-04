@@ -4,7 +4,14 @@ using System.Text;
 
 namespace Dsw2026Ej8
 {
-    internal class EJ06
+    public class EJ06
     {
+        public string NormalizarCodigoProducto(string codigo)
+        {
+            string message;
+            message=codigo.ToProductCode();
+
+            return message;
+        }
     }
 }
