@@ -4,7 +4,12 @@ using System.Text;
 
 namespace Dsw2026Ej8
 {
-    internal class EJ05
+    public class Problema5
     {
+    public decimal ObtenerImporteFinal (Sale sale)
+        {
+            decimal calculo = sale.CalculateTotal();
+            return 1;
+        }
     }
 }
